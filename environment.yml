@@ -1,0 +1,35 @@
+name: new
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - wordcloud=1.8.1
+  - emoji=1.6.1
+  - lxml=4.6.3
+  - requests=2.24.0
+  - pandas=1.1.3
+  - beautifulsoup4=4.9.3
+  - bs4=4.9.3
+  - matplotlib=3.3.2
+  - matplotlib-base=3.3.2
+  - urllib3=1.25.11
+  - pillow=8.0.1
+  - pip=20.2.4
+  - geopandas=0.8.1
+  - python=3.8.5
+  - rasterio=1.1.1
+  - rasterstats=0.14.0
+  - regex=2020.11.13
+  - jsonschema=3.2.0
+  - jupyter_client=6.1.7
+  - jupyter_core=4.6.3
+  - nltk=3.5
+  - notebook=6.1.4
+  - scikit-learn=0.23.2
+  - scipy=1.5.0
+  - dask=2020.12.0
+  - dask-core=2020.12.0
+  - econtools=0.3.2
+  - plotly=4.12.0
+  - multiprocess=0.70.11.1
+  - absl-py=1.0.0 
