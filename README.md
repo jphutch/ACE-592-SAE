@@ -1,3 +1,3 @@
-# ACE-592-SAE
+# ACE-592-SAE: Data Science for Applied Economics
 ## Instructor: Professor Hutchins
 ## TA: Hanna Willwerth
