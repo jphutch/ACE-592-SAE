@@ -1,0 +1,16 @@
+## Paavani's script for installing our class environment
+
+sudo chmod -R 775 /Users/paavanisachdeva/.conda #Only if you get an error about permissions and paths 
+
+conda update -n base -c defaults conda
+conda install -n base conda-libmamba-solver 
+conda config --set solver libmamba
+
+conda env list 
+
+conda create --name ace-592-sae
+
+conda activate ace-592-sae
+
+conda config --add channels conda-forge
+conda install selenium scrapy tensorflow python-graphviz graphviz overpy skimage gensim wordcloud requests unidecode seaborn emoji lxml pandas beautifulsoup4 bs4 matplotlib matplotlib-base urllib3 pillow pip geopandas python rasterio rasterstats regex jsonschema jupyter_client jupyter_core nltk notebook scikit-learn scipy dask dask-core econtools plotly multiprocess xarray
