@@ -37,7 +37,6 @@ dependencies:
   - geopandas
   - gensim
   - tweepy
-  - rise
   - spotipy
   - scikit-image
   - overpy
