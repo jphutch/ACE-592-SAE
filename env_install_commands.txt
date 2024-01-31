@@ -1,16 +1,29 @@
 ## Paavani's script for installing our class environment
 
-sudo chmod -R 775 /Users/paavanisachdeva/.conda #Only if you get an error about permissions and paths 
+## If you have trouble with permissions on your device: 
 
-conda update -n base -c defaults conda
-conda install -n base conda-libmamba-solver 
-conda config --set solver libmamba
+## Windows users: Run command prompt as Administrator
 
-conda env list 
+## Mac Users: run the following line of code
+sudo chmod -R 775 /Users/paavanisachdeva/.conda ## Replace with location of where Anaconda is installed in your device
 
-conda create --name ace-592-sae
 
-conda activate ace-592-sae
+Step 1: open terminal / command prompt. If on windows, open command prompt as admin 
 
-conda config --add channels conda-forge
-conda install selenium scrapy tensorflow python-graphviz graphviz overpy skimage gensim wordcloud requests unidecode seaborn emoji lxml pandas beautifulsoup4 bs4 matplotlib matplotlib-base urllib3 pillow pip geopandas python rasterio rasterstats regex jsonschema jupyter_client jupyter_core nltk notebook scikit-learn scipy dask dask-core econtools plotly multiprocess xarray
+Step 2: Navigate to folder with class repo
+  cd /Users/paavanisachdeva/Github/ACE-592-SAE
+
+Step 3: make sure you have the latest version of the repo using git pull 
+
+Step 4: Check existing environments — This is relevant if you tried to install the environment previously and saw errors. 
+  conda env create -f environment.yml 
+
+Step 5: Check if the environment is installed 
+  conda info —envs 
+
+Step 6: Activate the environment !
+ conda activate ace-592-sae 
+
+Step 7: Open and run any Jupyter notebook from class. You will be prompted to choose an environment. If the environment has installed properly, then you should be able to run the notebook without any package errors. 
+
+IF YOU HAVE ANY ISSUES - COME TO TA OFFICE HOURS 
