@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - m2-base
   - urllib3
   - regex
   - plotly
