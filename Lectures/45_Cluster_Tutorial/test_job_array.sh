@@ -7,6 +7,6 @@
 #SBATCH --mail-user=jhtchns2@illinois.edu
 #SBATCH --mail-type=BEGIN,END
 
-module load anaconda/3
+module load anaconda3/2024.06
 
 python hello_parallel.py $SLURM_ARRAY_TASK_ID

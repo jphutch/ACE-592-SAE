@@ -7,7 +7,7 @@
 #SBATCH --mail-user=jhtchns2@illinois.edu
 #SBATCH --mail-type=BEGIN,END
 
-module load anaconda/3
+module load anaconda3/2024.06
 
 srun --exclusive --ntasks 1 python hello_parallel.py 1 &
 srun --exclusive --ntasks 1 python hello_parallel.py 2 &
