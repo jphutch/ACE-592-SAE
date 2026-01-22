@@ -1,0 +1,154 @@
+  730  cd work
+  731  ls
+  732  cd classes
+  733  ls
+  734  mkdir Temp
+  735  ls
+  736  cd Temp
+  737  ls
+  738  touch tempfile.txt
+  739  ls
+  740  ls -l
+  741  ls -la
+  742  cd ../
+  743  ls
+  744  cd Temp
+  745  nano
+  746  ls
+  747  nano tempfile.txt
+  748  ls
+  749  less tempfile.txt 
+  750  mkdir AnotherTemp
+  751  ls
+  752  cp tempfile.txt ./AnotherTemp/
+  753  ls
+  754  ls AnotherTemp/
+  755  ls
+  756  rm tempfile.txt 
+  757  ls
+  758  rm AnotherTemp/
+  759  rm -r AnotherTemp/
+  760  ls
+  761  cd ../
+  762  ls
+  763  rm -r ./Temp/
+  764  ls
+  765  cd ACE-592-SAE-Public/
+  766  ls
+  767  cd ..
+  768  ls
+  769  git clone https://github.com/jphutch/ACE-592-SAE.git
+  770  rm -r ACE-592-SAE/
+  771  ls
+  772  cd ACE-592-SAE
+  773  ls
+  774  cd ..
+  775  rm -r ACE-592-SAE
+  776  ls
+  777  rm -rf ./ACE-592-SAE/
+  778  ls
+  779  git clone https://github.com/jphutch/ACE-592-SAE.git
+  780  ls
+  781  cd ACE-592-SAE
+  782  ls
+  783  cd ~
+  784  cd work/classes
+  785  ls
+  786  cd ACE-592-SAE-Public/
+  787  ls
+  788  cd Lectures/
+  789  ls
+  790  cd 1_Introduction/
+  791  ls
+  792  less 22_shell_commands.sh 
+  793  cd ../../
+  794  ls
+  795  ls
+  796  less song_lyrics.txt 
+  797  less random_file.txt 
+  798  nano random_file.txt 
+  799  less random_file.txt 
+  800  git add random_file.txt
+  801  git status
+  802  git commit -m "I added a line for S26"
+  803  git log
+  804  git status
+  805  git rm ACE592_syllabus.pdf
+  806  git rm ACE592_Syllabus.pdf
+  807  git rm ACE592-syllabus.pdf
+  808  git status
+  809  git add ACE_535_Syllabus.pdf
+  810  git status
+  811  git commit -m "Changed the name of the course"
+  812  less README.md 
+  813  nano README.md 
+  814  git add README.md 
+  815  git commit -m "Updated course name on the README"
+  816  git status
+  817  git remote -v
+  818  git push origin master
+  819  git pull origin master
+  820  ls
+  821  less song_lyrics.txt 
+  822  less random_file.txt 
+  823  git status
+  824  git add random_file.txt 
+  825  git status
+  826  git commit -m "Integrated with the remote"
+  827  git push origin master
+  828  cd ../
+  829  ls
+  830  cd ACE-592-SAE
+  831  ls
+  832  git log
+  833  git pull origin master
+  834  ls
+  835  cd ../
+  836  cd ACE-592-SAE-Public/
+  837  ls
+  838  git status
+  839  git diff Homeworks/HW0_Intro.ipynb
+  840  git add Homeworks/HW0_Intro.ipynb 
+  841  git commit -m "Clarified that I added a new year of data"
+  842  git diff Homeworks/HW1_Text.ipynb
+  843  git checkout Homeworks/HW1_Text.ipynb
+  844  git status
+  845  ls
+  846  ls -a
+  847  less .gitignore
+  848  ls
+  849  nano .gitignore 
+  850  git status
+  851  touch untracked_file.txt
+  852  ls
+  853  git status
+  854  rm untracked_file.txt 
+  855  ls
+  856  less song_lyrics.txt 
+  857  grep "rain" song_lyrics.txt 
+  858  grep -l "rain" song_lyrics.txt 
+  859  grep -n "rain" song_lyrics.txt 
+  860  grep "rain" song_lyrics.txt | out.txt
+  861  grep "rain" song_lyrics.txt > out.txt
+  862  ls
+  863  less out.txt 
+  864  grep "storm" song_lyrics.txt
+  865  grep -n "storm" song_lyrics.txt
+  866  less song_lyrics.txt 
+  867  grep -A 3 "storm" song_lyrics.txt 
+  868  grep -A 2 "storm" song_lyrics.txt 
+  869  grep -B 2 "storm" song_lyrics.txt 
+  870  grep -B 6 "storm" song_lyrics.txt 
+  871  grep -A 3 "storm" song_lyrics.txt 
+  872  grep -A 3 "storm" song_lyrics.txt > second_chorus.txt
+  873  less second_chorus.txt 
+  874  grep -A 3 "storm" song_lyrics.txt > ./Lectures/second_chorus.txt
+  875  ls Lectures/
+  876  rm ./Lectures/second_chorus.txt 
+  877  ls Lectures/
+  878  less song_lyrics.txt 
+  879  sed 's/Adele/Bob Dylan/g' song_lyrics.txt 
+  880  sed -i 's/Adele/Bob Dylan/g' song_lyrics.txt 
+  881  sed -i 's/19/Time Out of Mind/g' song_lyrics.txt 
+  882  sed -i 's/To make you feel my love/Hello from the other side/' song_lyrics.txt
+  883  sed -i 's/Hello from the other side/To make you feel my love/g' song_lyrics.txt
