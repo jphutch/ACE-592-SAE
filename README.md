@@ -1,2 +1,2 @@
-# ACE-592-SAE: Data Science for Applied Economics
+# ACE-535: Data Science for Applied Economics
 ## Instructor: Professor Hutchins
